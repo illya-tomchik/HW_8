@@ -1,20 +1,24 @@
-
-.text-box   h3:first-child {
+.text-box h3:first-child {
     color: pink;
 }
+
 h3:last-child {
     color: green;
 }
+
 #greycol {
     color: gray;
 }
-#greycol ~ div > p {
+
+#greycol~div>p {
     color: red;
 }
- div ~ h3 ~ p {
+
+div~h3~p {
     color: yellow;
 }
-div ~ h3 + p {
+
+div~h3+p {
     color: green;
 }
 
@@ -22,9 +26,11 @@ div ~ h3 + p {
 .div:hover {
     color: red;
 }
+
 .h1:focus {
     color: deeppink;
 }
+
 .h2:focus {
     color: cyan;
 }
@@ -32,9 +38,11 @@ div ~ h3 + p {
 .h3:focus {
     color: gold;
 }
+
 .h3:link {
     background-color: black;
 }
+
 .h4:visited {
     color: cyan;
 }
@@ -42,6 +50,7 @@ div ~ h3 + p {
 .h4:visited {
     background-color: lime;
 }
+
 .h5:active {
     background-color: black;
 }
@@ -51,17 +60,19 @@ div ~ h3 + p {
 .li1:nth-child(3n) {
     color: blueviolet;
 }
+
 .li1:nth-child(n+30) {
     color: gold;
 }
+
 .li1:nth-child(odd) {
     font-size: 20px;
 }
+
 .li1:nth-child(even) {
     background-color: green;
 }
+
 .li1:last-child {
     background-color: black;
 }
-
-
