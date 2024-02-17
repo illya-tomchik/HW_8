@@ -1,4 +1,4 @@
-.text-box h3:first-child {
+/* .text-box h3:first-child {
     color: pink;
 }
 
@@ -16,19 +16,19 @@ div~h3~p {
 
 div~h3+p {
     color: green;
-}
+} */
 
 
 .div:hover {
-    color: red;
+    color: blue;
 }
 
 .h1:focus {
-    color: deeppink;
+    color: crimson;
 }
 
 .h2:focus {
-    color: cyan;
+    color: aquamarine;
 }
 
 .h3:focus {
@@ -36,11 +36,11 @@ div~h3+p {
 }
 
 .h3:link {
-    background-color: black;
+    background-color: chartreuse;
 }
 
 .h4:visited {
-    color: cyan;
+    color: darkmagenta;
 }
 
 .h4:visited {
@@ -48,17 +48,17 @@ div~h3+p {
 }
 
 .h5:active {
-    background-color: black;
+    background-color:black ;
 }
 
 
 
 .li1:nth-child(3n) {
-    color: blueviolet;
+    color: coral;
 }
 
 .li1:nth-child(n+30) {
-    color: gold;
+    color: darkgoldenrod;
 }
 
 .li1:nth-child(odd) {
@@ -66,7 +66,7 @@ div~h3+p {
 }
 
 .li1:nth-child(even) {
-    background-color: green;
+    background-color: darkgreen;
 }
 
 .li1:last-child {
